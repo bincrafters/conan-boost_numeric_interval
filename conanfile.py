@@ -8,9 +8,9 @@ class BoostNumeric_IntervalConan(ConanFile):
     description = "Please visit http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm"
     license = "www.boost.org/users/license.html"
     lib_short_names = ["interval"]
-    requires =  "Boost.Config/1.65.1@bincrafters/testing", \
-                      "Boost.Detail/1.65.1@bincrafters/testing", \
-                      "Boost.Logic/1.65.1@bincrafters/testing"
+    requires =  "Boost.Config/1.65.1@bincrafters/stable", \
+                      "Boost.Detail/1.65.1@bincrafters/stable", \
+                      "Boost.Logic/1.65.1@bincrafters/stable"
 
                       #config0 detail5 logic3
 
