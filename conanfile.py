@@ -3,12 +3,12 @@ from conans import ConanFile
 
 class BoostNumeric_IntervalConan(ConanFile):
     name = "Boost.Numeric_Interval"
-    version = "1.65.1"
+    version = "1.66.0"
 
     requires = \
-        "Boost.Config/1.65.1@bincrafters/testing", \
-        "Boost.Detail/1.65.1@bincrafters/testing", \
-        "Boost.Logic/1.65.1@bincrafters/testing"
+        "Boost.Config/1.66.0@bincrafters/testing", \
+        "Boost.Detail/1.66.0@bincrafters/testing", \
+        "Boost.Logic/1.66.0@bincrafters/testing"
 
     lib_short_names = ["interval"]
     is_header_only = True
@@ -16,9 +16,9 @@ class BoostNumeric_IntervalConan(ConanFile):
     # BEGIN
 
     url = "https://github.com/bincrafters/conan-boost-numeric_interval"
-    description = "Please visit http://www.boost.org/doc/libs/1_65_1"
+    description = "Please visit http://www.boost.org/doc/libs/1_66_0"
     license = "www.boost.org/users/license.html"
-    build_requires = "Boost.Generator/1.65.1@bincrafters/testing"
+    build_requires = "Boost.Generator/1.66.0@bincrafters/testing"
     short_paths = True
     exports = "boostgenerator.py"
 
