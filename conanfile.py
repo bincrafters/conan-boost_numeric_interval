@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostNumeric_IntervalConan(ConanFile):
     name = "boost_numeric_interval"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-numeric_interval"
+    url = "https://github.com/bincrafters/conan-boost_numeric_interval"
 
     lib_short_names = ["interval"]
     is_header_only = True
