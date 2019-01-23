@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.67.0@bincrafters/testing")
 
 class BoostNumeric_IntervalConan(base.BoostBaseConan):
     name = "boost_numeric_interval"
+    version = "1.67.0"
     url = "https://github.com/bincrafters/conan-boost_numeric_interval"
     lib_short_names = ["interval"]
     header_only_libs = ["interval"]
